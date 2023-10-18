@@ -1,0 +1,87 @@
+.banner{
+    background: url('../img/arrin5.jpg');
+    height: 700px;
+}
+.pr-navbar{
+    background: url('../img/arrin5.jpg');
+    position: absolute;
+    z-index: 100;
+}
+.nav-link{
+    border-bottom: 8px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-bottom 0.4s ease;
+}
+.nav-link:hover{
+    border-bottom-color: white;
+    padding-bottom: 8px;
+}
+
+.navbar .container{
+    background: transparent fixed;
+    height: 93px;
+    box-shadow: 8px 8px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+}
+.icon-nav{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.nav-item,.tel{
+    font-weight:500;
+    font-size: 20px;
+}
+.tel{
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.tel-icon{
+    font-size: 30px;
+}
+.card-first,.img-card{
+    background: url('../img/arrin5.jpg');
+    height: 120px;
+    border-radius: 30px;
+}
+.titre-info{
+    font-weight: 700;
+    color:white;
+}
+.nav-item,.tel-part{
+    background: url('../img/arrin5.jpg');
+    border-radius: 20px;
+}
+.card-img-top{
+    height: 100px;
+}
+.exp-btn{
+    letter-spacing: 10px;
+}
+.btn-nb{
+    letter-spacing: normal;
+}
+.div-exp{
+    background: url('../img/code.jpg')no-repeat;
+}
+
+body{
+    background: whitesmoke;
+    font-family: 'DM Sans',sans-serif;
+}
+input{
+    height: 70px;
+    border-radius: 50px;
+}
+.submitinput{
+    width: 155px;
+    letter-spacing: 3px;
+}
+@media screen and (max-width: 500px) {
+    .card-comp{
+        text-align: center;
+        margin-right: 25px;
+    }
+    .div-exp{
+        height: 170px;
+    }
+}
